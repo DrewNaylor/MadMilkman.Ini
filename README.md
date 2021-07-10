@@ -2,7 +2,11 @@
 
 Original readme:
 # ![MadMilkman.Ini component's icon](../master/MadMilkman.Ini/Properties/MadMilkman.Ini.png) MadMilkman.Ini
-**MadMilkman.Ini** is a .NET component which simplifies processing of INI files and requires only a minimum **.NET Framework version 2.0**.
+This fork of **MadMilkman.Ini** is a .NET Standard library which simplifies processing of INI files and requires only a minimum of any of these [.NET versions](https://docs.microsoft.com/en-us/dotnet/standard/net-standard):
+- .NET Framework version 4.6.1
+- .NET 5.0
+- .NET Core 2.0
+- Mono 5.4
 It is 100% managed code (C#), **compatible with Mono framework**, which provides an easy to use programming interface.
 
 ## Advantages:
