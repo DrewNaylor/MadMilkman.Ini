@@ -1,7 +1,7 @@
 > Note: This fork ports MadMilkman.Ini to .NET Standard 2.0. Documentation may take a bit to update to reflect this.
 
 # ![MadMilkman.Ini component's icon](../master/MadMilkman.Ini/Properties/MadMilkman.Ini.png) MadMilkman.Ini
-This fork of **MadMilkman.Ini** is a .NET Standard library which simplifies processing of INI files and requires only a minimum of any of these [.NET versions](https://docs.microsoft.com/en-us/dotnet/standard/net-standard):
+This **[fork of MadMilkman.Ini](https://github.com/MarioZ/MadMilkman.Ini)** is a .NET Standard library which simplifies processing of INI files and requires only a minimum of any of these [.NET versions](https://docs.microsoft.com/en-us/dotnet/standard/net-standard):
 - .NET Framework 4.6.1 (4.7.2 is recommended as 4.6.1 has issues with using .NET Standard 1.5-2.0 libraries)
 - .NET 5.0
 - .NET Core 2.0
@@ -18,13 +18,7 @@ It is 100% managed code (C#), which provides an easy to use programming interfac
 * Enables serializing and deserializing custom types into an INI content.
 
 ## Installation:
-You can use this component in any way that suits you:
-* As _private assembly_ by adding [MadMilkman.Ini.dll](https://github.com/MarioZ/MadMilkman.Ini/raw/master/MadMilkman.Ini.zip) inside your project.
-* As _shared assembly_ by installing [MadMilkman.Ini.Setup.msi](https://github.com/MarioZ/MadMilkman.Ini/raw/master/MadMilkman.Ini.Setup.msi).
-* As _package_ via [NuGet](http://www.nuget.org/packages/MadMilkman.Ini):
-```powershell
-PM> Install-Package MadMilkman.Ini
-```
+You can use this library by referencing MadMilkman.Ini.dll inside your project after extracting it from the [ZIP file](https://github.com/DrewNaylor/MadMilkman.Ini/releases/latest).
 
 ## First steps:
 1. Create new .NET project.
@@ -33,11 +27,14 @@ PM> Install-Package MadMilkman.Ini
   * C# - `using MadMilkman.Ini;`
   * VB.NET - `Import MadMilkman.Ini`
   * C++/CLI - `using namespace MadMilkman::Ini;`
+  > I'm not entirely sure if this'll work for C++/CLI as VS2019 said it couldn't find the correct program for it, but I'm keeping this here as it was in the original readme and could work.
 4. Write some INI files processing code.
   * Use code samples located in MadMilkman.Ini.Samples, written in C#, VB.NET and C++/CLI as starting point.
-  * Read [MadMilkman.Ini.Documentation.chm](https://github.com/MarioZ/MadMilkman.Ini/raw/master/MadMilkman.Ini.Documentation.zip) to learn more about the component and its API references.
+  > Again, I didn't update the C++ project, so it may not work.
+  * Read [MadMilkman.Ini.Documentation.chm](https://github.com/DrewNaylor/MadMilkman.Ini/raw/master/MadMilkman.Ini.Documentation.zip) to learn more about the component and its API references.
 
 ## Feedback & Support:
+> Original readme, so I might not be able to help with it, and [MarioZ](https://github.com/MarioZ/MadMilkman.Ini) is the original author of the library, so feedback that's unrelated to this fork should go to them.
 Please feel free to contact me with any questions, suggestions or issues regarding the MadMilkman.Ini component, I will be more than happy to provide a help.
 Also if you found the component useful or useless I would be interested in hearing about it.
 
