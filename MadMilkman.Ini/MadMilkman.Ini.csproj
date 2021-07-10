@@ -6,7 +6,7 @@
 
   <ItemGroup>
     <Content Include="Properties\MadMilkman.Ini.png" />
-	<Content Include="IniInternal\SharedDocumentationComments.xml" />
+    <Content Include="IniInternal\SharedDocumentationComments.xml" />
   </ItemGroup>
 
 </Project>
