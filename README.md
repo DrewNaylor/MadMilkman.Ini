@@ -1,7 +1,7 @@
 > Note: This fork ports MadMilkman.Ini to .NET Standard 2.0. Documentation may take a bit to update to reflect this.
 
 # ![MadMilkman.Ini component's icon](../master/MadMilkman.Ini/Properties/MadMilkman.Ini.png) MadMilkman.Ini
-This **[fork of MadMilkman.Ini](https://github.com/MarioZ/MadMilkman.Ini)** is a .NET Standard library which simplifies processing of INI files and requires only a minimum of any of these [.NET versions](https://docs.microsoft.com/en-us/dotnet/standard/net-standard):
+This **[fork of MadMilkman.Ini](https://github.com/MarioZ/MadMilkman.Ini)** is a .NET Standard 2.0 library which simplifies processing of INI files and requires only a minimum of any of these [.NET versions](https://docs.microsoft.com/en-us/dotnet/standard/net-standard):
 - .NET Framework 4.6.1 (4.7.2 is recommended as 4.6.1 has issues with using .NET Standard 1.5-2.0 libraries)
 - .NET 5.0
 - .NET Core 2.0
