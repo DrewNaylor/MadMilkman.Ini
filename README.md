@@ -10,7 +10,7 @@ This **[fork of MadMilkman.Ini](https://github.com/MarioZ/MadMilkman.Ini)** is a
 There may be other .NET implementations supported, but they may not work.<br>
 It is 100% managed code (C#), which provides an easy to use programming interface.
 
-## Advantages:
+## Advantages
 > This part was unchanged.<br>
 * Enables reading and writing of various INI file formats.
 * Enables easy manipulation of INI file's content.
@@ -19,7 +19,7 @@ It is 100% managed code (C#), which provides an easy to use programming interfac
 * Enables compressing and decompressing INI files.
 * Enables serializing and deserializing custom types into an INI content.
 
-## Installation:
+## Installation
 You can use this library by referencing MadMilkman.Ini.dll inside your project after extracting it from the [ZIP file](https://github.com/DrewNaylor/MadMilkman.Ini/releases/latest).
 
 ## First steps:
@@ -35,7 +35,7 @@ You can use this library by referencing MadMilkman.Ini.dll inside your project a
   > Again, I didn't update the C++ project, so it may not work.
   * Read [MadMilkman.Ini.Documentation.chm](https://github.com/DrewNaylor/MadMilkman.Ini/raw/master/MadMilkman.Ini.Documentation.zip) to learn more about the component and its API references.
 
-## Feedback & Support:
+## Feedback & Support
 > From the original readme, so I might not be able to help with questions or other stuff, and [MarioZ](https://github.com/MarioZ/MadMilkman.Ini) is the original author of the library, so feedback that's unrelated to this fork should go to them.<br>
 
 Please feel free to contact me with any questions, suggestions or issues regarding the MadMilkman.Ini component, I will be more than happy to provide a help.
@@ -118,5 +118,31 @@ file->Save("Sample.ini");
 **Binding** feature enables you to define placeholders inside a key's value which can be binded (replaced) with an internal or external data source via Bind() method.
 
 **Serialization** feature enables you to serialize an object into section's keys.
+
+## List Sections
+> The following is mostly copied (with a few small changes) from [JohnDovey's pull request adding to the docs](https://github.com/MarioZ/MadMilkman.Ini/pull/32), as I figured it would be useful to include it in some form so it's not lost. Please be aware that this code is **untested* and **may not work without modification**, but it should be enough to get started. I may add a C# example in the future.
+
+If you wish to iterate through the file and retrieve a list of sections, you can do something like this:
+
+### VB.NET
+
+```vbnet
+Dim iniFile As New Ini.IniFile(                
+New Ini.IniOptions() With {                    
+    .CommentStarter = Ini.IniCommentStarter.Semicolon,                    
+    .KeyDelimiter = Ini.IniKeyDelimiter.Colon,                    
+    .KeySpaceAroundDelimiter = False,                    
+    .SectionWrapper = Ini.IniSectionWrapper.SquareBrackets})
+        
+    ' Load file from path.        
+    iniFile.Load("C:\testfile.ini")        
+    
+    Dim SectionsCount As Integer = iniFile.Sections.Count
+        
+   ' Iterate through the INI file returning all the section names.        
+   For x As Integer = 0 To SectionsCount - 1            
+       Console.WriteLine(iniFile.Sections(x).Name)        
+   Next
+```
 
 More details can be found in [MadMilkman.Ini.Documentation.chm](https://github.com/DrewNaylor/MadMilkman.Ini/raw/master/MadMilkman.Ini.Documentation.zip). The info in this CHM file will be moved to a GitHub Wiki at some point, as Windows HTML Help is deprecated I think, and I'd like to preserve the documentation from the original project. If that's too difficult, I'll just put it into files in /docs.
