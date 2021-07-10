@@ -9,6 +9,10 @@
     <DocumentationFile>MadMilkman.Ini.xml</DocumentationFile>
   </PropertyGroup>
 
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>MadMilkman.Ini.xml</DocumentationFile>
+  </PropertyGroup>
+
   <ItemGroup>
     <Content Include="Properties\MadMilkman.Ini.png" />
     <Content Include="IniInternal\SharedDocumentationComments.xml" />
