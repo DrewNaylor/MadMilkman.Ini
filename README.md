@@ -6,7 +6,8 @@ This **[fork of MadMilkman.Ini](https://github.com/MarioZ/MadMilkman.Ini)** is a
 - .NET 5.0
 - .NET Core 2.0
 - Mono 5.4
-There may be other .NET implementations supported, but they may not work.
+
+There may be other .NET implementations supported, but they may not work.<br>
 It is 100% managed code (C#), which provides an easy to use programming interface.
 
 ## Advantages:
