@@ -26,3 +26,6 @@ ipch/
 
 # Other random Visual Studio stuff
 .vs/
+
+# Stuff added via GitHub Desktop
+MadMilkman.Ini/MadMilkman.Ini.xml

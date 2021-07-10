@@ -5,6 +5,10 @@
     <Version>2.0</Version>
   </PropertyGroup>
 
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DocumentationFile>MadMilkman.Ini.xml</DocumentationFile>
+  </PropertyGroup>
+
   <ItemGroup>
     <Content Include="Properties\MadMilkman.Ini.png" />
     <Content Include="IniInternal\SharedDocumentationComments.xml" />
