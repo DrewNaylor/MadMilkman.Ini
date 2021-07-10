@@ -3,11 +3,12 @@
 Original readme:
 # ![MadMilkman.Ini component's icon](../master/MadMilkman.Ini/Properties/MadMilkman.Ini.png) MadMilkman.Ini
 This fork of **MadMilkman.Ini** is a .NET Standard library which simplifies processing of INI files and requires only a minimum of any of these [.NET versions](https://docs.microsoft.com/en-us/dotnet/standard/net-standard):
-- .NET Framework version 4.6.1
+- .NET Framework 4.6.1 (4.7.2 is recommended as 4.6.1 has issues with using .NET Standard 1.5-2.0 libraries)
 - .NET 5.0
 - .NET Core 2.0
 - Mono 5.4
-It is 100% managed code (C#), **compatible with Mono framework**, which provides an easy to use programming interface.
+There may be other .NET implementations supported, but they may not work.
+It is 100% managed code (C#), which provides an easy to use programming interface.
 
 ## Advantages:
 * Enables reading and writing of various INI file formats.
