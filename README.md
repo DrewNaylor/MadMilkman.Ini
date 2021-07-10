@@ -120,7 +120,7 @@ file->Save("Sample.ini");
 **Serialization** feature enables you to serialize an object into section's keys.
 
 ## List Sections
-> The following is mostly copied (with a few small changes) from [JohnDovey's pull request adding to the docs](https://github.com/MarioZ/MadMilkman.Ini/pull/32), as I figured it would be useful to include it in some form so it's not lost. Please be aware that this code is **untested* and **may not work without modification**, but it should be enough to get started. I may add a C# example in the future.
+> The following is mostly copied (with a few small changes) from [JohnDovey's pull request adding to the docs](https://github.com/MarioZ/MadMilkman.Ini/pull/32), as I figured it would be useful to include it in some form so it's not lost. Please be aware that this code is **untested** and **may not work without modification**, but it should be enough to get started. I may add a C# example in the future.
 
 If you wish to iterate through the file and retrieve a list of sections, you can do something like this:
 
