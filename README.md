@@ -37,11 +37,13 @@ You can use this library by referencing MadMilkman.Ini.dll inside your project a
 
 ## Feedback & Support:
 > From the original readme, so I might not be able to help with questions or other stuff, and [MarioZ](https://github.com/MarioZ/MadMilkman.Ini) is the original author of the library, so feedback that's unrelated to this fork should go to them.<br>
+
 Please feel free to contact me with any questions, suggestions or issues regarding the MadMilkman.Ini component, I will be more than happy to provide a help.
 Also if you found the component useful or useless I would be interested in hearing about it.
 
 ## Overview
 > This part was unchanged.<br>
+
 MadMilkman.Ini provides a simple and intuitive programming interface which makes it very easy to create new or process existing INI files. Because INI file format is loosely defined and has no real standard, different files can have different format. By default MadMilkman.Ini processes the following format (however it is possible to define a custom formatting via IniOptions class):
 
 ```cfg
