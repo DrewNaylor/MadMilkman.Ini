@@ -34,11 +34,12 @@ You can use this library by referencing MadMilkman.Ini.dll inside your project a
   * Read [MadMilkman.Ini.Documentation.chm](https://github.com/DrewNaylor/MadMilkman.Ini/raw/master/MadMilkman.Ini.Documentation.zip) to learn more about the component and its API references.
 
 ## Feedback & Support:
-> Original readme, so I might not be able to help with it, and [MarioZ](https://github.com/MarioZ/MadMilkman.Ini) is the original author of the library, so feedback that's unrelated to this fork should go to them.
+> From the original readme, so I might not be able to help with questions or other stuff, and [MarioZ](https://github.com/MarioZ/MadMilkman.Ini) is the original author of the library, so feedback that's unrelated to this fork should go to them.
 Please feel free to contact me with any questions, suggestions or issues regarding the MadMilkman.Ini component, I will be more than happy to provide a help.
 Also if you found the component useful or useless I would be interested in hearing about it.
 
 ## Overview
+> This part was unchanged.
 MadMilkman.Ini provides a simple and intuitive programming interface which makes it very easy to create new or process existing INI files. Because INI file format is loosely defined and has no real standard, different files can have different format. By default MadMilkman.Ini processes the following format (however it is possible to define a custom formatting via IniOptions class):
 
 ```cfg
@@ -114,4 +115,4 @@ file->Save("Sample.ini");
 
 **Serialization** feature enables you to serialize an object into section's keys.
 
-More details can be found in [MadMilkman.Ini.Documentation.chm](https://github.com/MarioZ/MadMilkman.Ini/raw/master/MadMilkman.Ini.Documentation.zip).
+More details can be found in [MadMilkman.Ini.Documentation.chm](https://github.com/DrewNaylor/MadMilkman.Ini/raw/master/MadMilkman.Ini.Documentation.zip). The info in this CHM file will be moved to a GitHub Wiki at some point, as Windows HTML Help is deprecated I think, and I'd like to preserve the documentation from the original project. If that's too difficult, I'll just put it into files in /docs.
