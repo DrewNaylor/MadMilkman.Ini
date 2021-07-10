@@ -32,7 +32,7 @@ You can use this library by referencing MadMilkman.Ini.dll inside your project a
 4. Write some INI files processing code.
   * Use code samples located in MadMilkman.Ini.Samples, written in C#, VB.NET and C++/CLI as starting point.
   > Again, I didn't update the C++ project, so it may not work.
-  * Read [MadMilkman.Ini.Documentation.chm](./MadMilkman.Ini.Documentation.zip) to learn more about the component and its API references.
+  * Read [MadMilkman.Ini.Documentation.chm](https://github.com/DrewNaylor/MadMilkman.Ini/raw/master/MadMilkman.Ini.Documentation.zip) to learn more about the component and its API references.
 
 ## Feedback & Support:
 > From the original readme, so I might not be able to help with questions or other stuff, and [MarioZ](https://github.com/MarioZ/MadMilkman.Ini) is the original author of the library, so feedback that's unrelated to this fork should go to them.
