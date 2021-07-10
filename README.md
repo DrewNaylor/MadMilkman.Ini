@@ -27,7 +27,7 @@ You can use this library by referencing MadMilkman.Ini.dll inside your project a
 2. Add new reference to MadMilkman.Ini.dll.
 3. Add MadMilkman.Ini namespace.
   * C# - `using MadMilkman.Ini;`
-  * VB.NET - `Import MadMilkman.Ini`
+  * VB.NET - `Imports MadMilkman.Ini`
   * C++/CLI - `using namespace MadMilkman::Ini;`
   > I'm not entirely sure if this'll work for C++/CLI as VS2019 said it couldn't find the correct program for it, but I'm keeping this here as it was in the original readme and could work.
 4. Write some INI files processing code.
