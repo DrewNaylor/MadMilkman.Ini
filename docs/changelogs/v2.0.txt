@@ -1,0 +1,8 @@
+# MadMilkman.Ini Version 2.0
+
+The main purpose of this version is to migrate the project to .NET Standard 2.0. All the CSProj/VBProj files were upgraded to .NET Framework 4.8 so they should continue to work, though I didn't touch the C++ projects as VS2019 said the correct program wasn't found and I didn't want to mess with it. Aside from that, I also deleted the MSI and ZIP files containing the library from the source.
+
+## SHA256 Sums
+
+MadMilkman.Ini-v2.0.zip
+10401921F487847563ED5581D7C91569D3BAC94C414C57E46EFB461039B9B042
