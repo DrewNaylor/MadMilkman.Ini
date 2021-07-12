@@ -1,0 +1,8 @@
+# MadMilkman.Ini Version 2.0.0.1
+
+I forgot to include copyright details when porting the library to .NET Standard, so this version includes them.
+
+## SHA256 Sums
+
+MadMilkman.Ini.dll in the ZIP file:
+9E23BB0653A61FE5EDCD4F16F3FCAD2033987D04EB5F387F6441D8085AEE927D
