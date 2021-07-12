@@ -5,6 +5,11 @@
     <Version>2.0</Version>
     <Description>MadMilkman.Ini, built for .NET Standard 2.0. This is a fork of the original source.</Description>
     <Product>MadMilkman.Ini fork built for .NET Standard</Product>
+    <Copyright>Original code Copyright (C) Mario Zorica and others; Forked by Drew Naylor; Licensed under the MIT License according to "LICENSE"</Copyright>
+    <Authors>Original code by Mario Zorica and others; Forked by Drew Naylor</Authors>
+    <Company>Original code by Mario Zorica and others; Forked by Drew Naylor</Company>
+    <AssemblyVersion>2.0.0.1</AssemblyVersion>
+    <FileVersion>2.0.0.1</FileVersion>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
