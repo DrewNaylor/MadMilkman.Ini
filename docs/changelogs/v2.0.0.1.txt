@@ -1,6 +1,6 @@
 # MadMilkman.Ini Version 2.0.0.1
 
-I forgot to include copyright details when porting the library to .NET Standard, so this version includes them.
+I forgot to include copyright details when porting the library to .NET Standard, so this version includes them as well as the license file and documentation.
 
 ## SHA256 Sums
 
