@@ -1,6 +1,6 @@
 > Note: This fork ports MadMilkman.Ini to .NET Standard 2.0. Documentation may take a bit to update to reflect this.
 
-> Note 2: The name for this fork has been changed to libinidotnet, and it'll take a little while to update everything and get a 3.0 release out with the new name.
+> Note 2: The name for this fork has been changed to libinidotnet, and it'll take a little while to update everything and get a 3.0 release out with the new name. Neither this project nor myself are associated with Microsoft or .NET, and Microsoft does not condone this project. Adding "dotnet" to the project's name is only to show that it works with .NET.
 
 # ![MadMilkman.Ini component's icon](../master/MadMilkman.Ini/Properties/MadMilkman.Ini.png) Fork of MadMilkman.Ini, Built for .NET Standard 2.0
 This **[fork of MadMilkman.Ini](https://github.com/MarioZ/MadMilkman.Ini)** is a .NET Standard 2.0 library which simplifies processing of INI files and requires only a minimum of any of these [.NET versions](https://docs.microsoft.com/en-us/dotnet/standard/net-standard):
