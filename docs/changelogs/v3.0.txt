@@ -1,0 +1,8 @@
+# libinidotnet Version 3.0
+
+This version renames the library to libinidotnet, though the namespaces are still MadMilkman.Ini since there are a lot of them to change and I didn't want things to break. You should be able to just upgrade by replacing the dependencies for each project that used to use MadMilkman.Ini.
+
+## SHA256 Sums
+
+libinidotnet.dll in the ZIP file:
+C2AEA3DEF1EC06FDEB9C3FE0AABC7F681332E67C55D610BF5C8FA7315DA66B98
