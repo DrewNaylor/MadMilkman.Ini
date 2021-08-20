@@ -6,9 +6,9 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{4FEA3A29-874B-4E1B-A60C-584E703FEA11}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <StartupObject>MadMilkman.Ini.Samples.VB.IniSamples</StartupObject>
-    <RootNamespace>MadMilkman.Ini.Samples.VB</RootNamespace>
-    <AssemblyName>MadMilkman.Ini.Samples.VB</AssemblyName>
+    <StartupObject>libinidotnet.Samples.VB.IniSamples</StartupObject>
+    <RootNamespace>libinidotnet.Samples.VB</RootNamespace>
+    <AssemblyName>libinidotnet.Samples.VB</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <MyType>Console</MyType>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
@@ -21,7 +21,7 @@
     <DefineDebug>true</DefineDebug>
     <DefineTrace>true</DefineTrace>
     <OutputPath>bin\Debug\</OutputPath>
-    <DocumentationFile>MadMilkman.Ini.Samples.VB.xml</DocumentationFile>
+    <DocumentationFile>libinidotnet.Samples.VB.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
@@ -31,7 +31,7 @@
     <DefineTrace>true</DefineTrace>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
-    <DocumentationFile>MadMilkman.Ini.Samples.VB.xml</DocumentationFile>
+    <DocumentationFile>libinidotnet.Samples.VB.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
   </PropertyGroup>
   <PropertyGroup>

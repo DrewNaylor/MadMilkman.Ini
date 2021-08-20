@@ -8,10 +8,10 @@ Imports System.Runtime.InteropServices
 
 ' Review the values of the assembly attributes
 
-<Assembly: AssemblyTitle("MadMilkman.Ini.Samples.VB")> 
+<Assembly: AssemblyTitle("libinidotnet.Samples.VB")>
 <Assembly: AssemblyDescription("")> 
-<Assembly: AssemblyCompany("")> 
-<Assembly: AssemblyProduct("MadMilkman.Ini.Samples.VB")> 
+<Assembly: AssemblyCompany("")>
+<Assembly: AssemblyProduct("libinidotnet.Samples.VB")>
 <Assembly: AssemblyCopyright("Copyright ©  2015")> 
 <Assembly: AssemblyTrademark("")> 
 

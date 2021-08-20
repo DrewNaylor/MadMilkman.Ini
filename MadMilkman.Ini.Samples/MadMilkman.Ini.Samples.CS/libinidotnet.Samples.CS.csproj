@@ -7,8 +7,8 @@
     <ProjectGuid>{67F5741B-F6B2-4A4B-8E83-E0FD108086B1}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>MadMilkman.Ini.Samples.CS</RootNamespace>
-    <AssemblyName>MadMilkman.Ini.Samples.CS</AssemblyName>
+    <RootNamespace>libinidotnet.Samples.CS</RootNamespace>
+    <AssemblyName>libinidotnet.Samples.CS</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />
