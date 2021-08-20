@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MadMilkman.Ini", "MadMilkman.Ini\MadMilkman.Ini.csproj", "{BEF9735D-C3CC-41E6-AAC6-18C5985D3107}"
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31229.75
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "libinidotnet", "MadMilkman.Ini\libinidotnet.csproj", "{BEF9735D-C3CC-41E6-AAC6-18C5985D3107}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MadMilkman.Ini.Tests", "MadMilkman.Ini.Tests\MadMilkman.Ini.Tests.csproj", "{BDD080C9-016F-4869-95DE-61171E2AB746}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "libinidotnet.Tests", "MadMilkman.Ini.Tests\libinidotnet.Tests.csproj", "{BDD080C9-016F-4869-95DE-61171E2AB746}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MadMilkman.Ini.Samples.CS", "MadMilkman.Ini.Samples\MadMilkman.Ini.Samples.CS\MadMilkman.Ini.Samples.CS.csproj", "{67F5741B-F6B2-4A4B-8E83-E0FD108086B1}"
 EndProject
@@ -21,9 +23,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MadMilkman.Ini.Samples.File
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MadMilkman.Ini.Samples.CPP", "MadMilkman.Ini.Samples\MadMilkman.Ini.Samples.CPP\MadMilkman.Ini.Samples.CPP.vcxproj", "{097C11FE-8D4B-48D8-884E-0747454E43DB}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MadMilkman.Ini.Samples", "MadMilkman.Ini.Samples", "{861D28E8-3AF2-48AF-B212-9C998BB8B200}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "libinidotnet.Samples", "libinidotnet.Samples", "{861D28E8-3AF2-48AF-B212-9C998BB8B200}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MadMilkman.Ini.QuickTest", "MadMilkman.Ini.QuickTest\MadMilkman.Ini.QuickTest.csproj", "{02922CB4-CA26-4327-B574-F8379EE7EC20}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "libinidotnet.QuickTest", "MadMilkman.Ini.QuickTest\libinidotnet.QuickTest.csproj", "{02922CB4-CA26-4327-B574-F8379EE7EC20}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -116,9 +118,12 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
+		{67F5741B-F6B2-4A4B-8E83-E0FD108086B1} = {861D28E8-3AF2-48AF-B212-9C998BB8B200}
 		{4FEA3A29-874B-4E1B-A60C-584E703FEA11} = {861D28E8-3AF2-48AF-B212-9C998BB8B200}
 		{AEF2490D-0F64-453B-9DCA-C1286517E311} = {861D28E8-3AF2-48AF-B212-9C998BB8B200}
 		{097C11FE-8D4B-48D8-884E-0747454E43DB} = {861D28E8-3AF2-48AF-B212-9C998BB8B200}
-		{67F5741B-F6B2-4A4B-8E83-E0FD108086B1} = {861D28E8-3AF2-48AF-B212-9C998BB8B200}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {61A1BA54-A19D-4AE1-8D35-52950E9DBC56}
 	EndGlobalSection
 EndGlobal

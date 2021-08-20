@@ -44,9 +44,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\MadMilkman.Ini\MadMilkman.Ini.csproj">
+    <ProjectReference Include="..\MadMilkman.Ini\libinidotnet.csproj">
       <Project>{bef9735d-c3cc-41e6-aac6-18c5985d3107}</Project>
-      <Name>MadMilkman.Ini</Name>
+      <Name>libinidotnet</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
