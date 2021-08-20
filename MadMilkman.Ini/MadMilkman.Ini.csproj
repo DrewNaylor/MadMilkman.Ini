@@ -2,14 +2,16 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
-    <Version>2.0</Version>
+    <Version>3.0</Version>
     <Description>MadMilkman.Ini, built for .NET Standard 2.0. This is a fork of the original source.</Description>
-    <Product>MadMilkman.Ini fork built for .NET Standard</Product>
-    <Copyright>Original code Copyright (C) Mario Zorica and others; Forked by Drew Naylor; Licensed under the MIT License according to "LICENSE"</Copyright>
-    <Authors>Original code by Mario Zorica and others; Forked by Drew Naylor</Authors>
-    <Company>Original code by Mario Zorica and others; Forked by Drew Naylor</Company>
-    <AssemblyVersion>2.0.0.1</AssemblyVersion>
-    <FileVersion>2.0.0.1</FileVersion>
+    <Product>libinidotnet, a MadMilkman.Ini fork built for .NET Standard</Product>
+    <Copyright>Original MadMilkman.Ini code Copyright (C) Mario Zorica and others; Forked as libinidotnet by Drew Naylor; Licensed under the MIT License according to "LICENSE"</Copyright>
+    <Authors>Original MadMilkman.Ini code by Mario Zorica and others; Forked as libinidotnet by Drew Naylor</Authors>
+    <Company>Original MadMilkman.Ini code by Mario Zorica and others; Forked as libinidotnet by Drew Naylor</Company>
+    <AssemblyVersion>3.0.0.0</AssemblyVersion>
+    <FileVersion>3.0.0.0</FileVersion>
+    <AssemblyName>libinidotnet</AssemblyName>
+    <RootNamespace>libinidotnet</RootNamespace>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
