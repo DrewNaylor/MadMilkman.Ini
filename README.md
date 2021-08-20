@@ -150,4 +150,4 @@ New Ini.IniOptions() With {
 ```
 
 ## More Documentation
-More details can be found in [MadMilkman.Ini.Documentation.chm](https://github.com/DrewNaylor/MadMilkman.Ini/raw/master/MadMilkman.Ini.Documentation.zip). The info in this CHM file will be moved to a GitHub Wiki at some point, as Windows HTML Help is deprecated I think, and I'd like to preserve the documentation from the original project. If that's too difficult, I'll just put it into files in /docs.
+More details can be found in [MadMilkman.Ini.Documentation.chm](https://github.com/DrewNaylor/libinidotnet/blob/master/docs/MadMilkman.Ini.Documentation.zip?raw=true). The info in this CHM file will be moved to a GitHub Wiki at some point, as Windows HTML Help is deprecated I think, and I'd like to preserve the documentation from the original project. If that's too difficult, I'll just put it into files in /docs.
