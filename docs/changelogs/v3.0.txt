@@ -1,6 +1,6 @@
 # libinidotnet Version 3.0
 
-This version renames the library to libinidotnet, though the namespaces are still MadMilkman.Ini since there are a lot of them to change and I didn't want things to break. You should be able to just upgrade by replacing the dependencies for each project that used to use MadMilkman.Ini.
+This version renames the library to libinidotnet, though the namespaces are still MadMilkman.Ini since there are a lot of them to change and I didn't want things to break. I also didn't rename the C++ samples project because I don't really have a way to test that it didn't break and the C++ tools for Visual Studio take up a lot of space, so I don't want to install them. Plus I never did change any of the files in that project to be compatible with the .NET Standard version of the library. You should be able to just upgrade by replacing the dependencies for each project that used to use MadMilkman.Ini.
 
 ## SHA256 Sums
 
