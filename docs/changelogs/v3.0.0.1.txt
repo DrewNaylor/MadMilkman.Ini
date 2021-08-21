@@ -1,0 +1,8 @@
+# libinidotnet Version 3.0.0.1
+
+I forgot to build the library in "Release" instead of "Debug", so it took up more space and may have been slower. Other changes include renaming the XML documentation file to "libinidotnet.xml" and stating that some files state that they're under the Apache License, Version 2.0.
+
+## SHA256 Sums
+
+libinidotnet.dll in the ZIP file:
+C2AEA3DEF1EC06FDEB9C3FE0AABC7F681332E67C55D610BF5C8FA7315DA66B98
