@@ -14,7 +14,9 @@ namespace MadMilkman.Ini
         {
             foreach (var propertyPair in GetPropertyPairs(typeof(T)))
             {
-                var key = section.Keys.Add(propertyPair.Key);
+                var key = section.ParentFile.options.KeyDuplicate == IniDuplication.Disallowed
+                    ? section.Keys[propertyPair.Key] ?? section.Keys.Add(propertyPair.Key) 
+                    : section.Keys.Add(propertyPair.Key);
                 if (key.ParentCollectionCore != null)
                     SetKeyValue(propertyPair.Value, source, key);
             }
